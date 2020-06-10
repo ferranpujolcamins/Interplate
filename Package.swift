@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "Interplate", targets: ["Interplate"])
     ],
     dependencies: [
-        .package(url: "https://github.com/ilyapuchka/common-parsers.git", .branch("master"))
+        .package(url: "https://github.com/ilyapuchka/common-parsers.git", .revision("32ae19987d03a4fbd7c20e48f44f1725ea277852"))
     ],
     targets: [
         .target(name: "Interplate", dependencies: ["CommonParsers"]),
